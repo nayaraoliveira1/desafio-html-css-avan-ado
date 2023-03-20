@@ -1,0 +1,81 @@
+body{
+    background: url(../images/bg-desktop.svg) center center no-repeat ;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center; 
+}
+
+.header .body h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 50px;
+}
+
+.header .body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding: 130px 90px;
+    line-height: 25px;
+}
+
+.header .bottom a{
+    font-family: 'Open Sans', sans-serif;
+    color:  hsl(257, 40%, 49%);
+    font-weight: 400;
+    border-radius: 50px;
+    padding: 10px 50px;
+    transition: 0.3s;
+    background-color: #fff;
+    line-height: 80px;    
+}
+
+.header .bottom a:hover {
+    background-color:  hsl(300, 69%, 71%);
+}
+
+.header .topo .logo img{
+    width: 160px;
+    padding: 35px 50px;
+}
+
+.header .topo .illustration img{
+    width: 620px;
+    padding: 20px 50px;
+}
+
+.header .body .text{
+    margin-top: 20px;
+}
+
+.social {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 100px;
+    text-align: center;
+}
+
+.social a{
+    color: #fff;
+    margin: 10px;
+    height: 8px;
+}
+
+.social i{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding: 5px 5px;
+}
+
+
+
+
+
+
